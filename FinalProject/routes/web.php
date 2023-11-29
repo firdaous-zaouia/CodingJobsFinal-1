@@ -20,4 +20,12 @@ Route::get('/', function () {
 Route::get('/otherRoute',function(){
     return view('otherRoute');
 });
+//add Route
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/otherRoute',function(){
+    return view('otherRoute');
+});
